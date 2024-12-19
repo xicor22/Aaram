@@ -14,6 +14,9 @@ PCB design for retro fitting old switch boards with new tech to control it remot
 4. Uses DHT22 for temperature and humidity sensor.
 5. 8 Spare pins for additional functionality.
 
+## Schematic
+![Schematic](/asset/Schematic.png)
+
 ## Images
 |View|Image|
 |----|-----|
@@ -21,3 +24,4 @@ PCB design for retro fitting old switch boards with new tech to control it remot
 |1<sup>st</sup> Layer| ![Layer 1](/asset/l1.png)|
 |2<sup>nd</sup> Layer| ![Layer 2](/asset/l2.png)|
 |3D view| ![Layer 4](/asset/3d.png)|
+
