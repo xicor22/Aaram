@@ -17,7 +17,7 @@ PCB design for retro fitting old switch boards with new tech to control it remot
 ## Images
 |View|Image|
 |----|-----|
-|1<sup>st</sup> Layer| ![Layer 1](/asset/l1.jpg)|
-|2<sup>nd</sup> Layer| ![Layer 2](/asset/l2.jpg)|
-|3<sup>rd</sup> Layer| ![Layer 3](/asset/l3.jpg)|
-|3D view| ![Layer 4](/asset/3d.jpg)|
+|Both Layers| ![Both Layers](/asset/.png)|
+|2<sup>nd</sup> Layer| ![Layer 2](/asset/l2.png)|
+|3<sup>rd</sup> Layer| ![Layer 3](/asset/l3.png)|
+|3D view| ![Layer 4](/asset/3d.png)|
