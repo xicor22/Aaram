@@ -17344,6 +17344,39 @@
 			)
 		)
 	)
+	(dimension
+		(type aligned)
+		(layer "Edge.Cuts")
+		(uuid "02d44f54-208f-4da8-ad07-1f65d8cc647f")
+		(pts
+			(xy 137.15 81.95) (xy 136.25 81.25)
+		)
+		(height 1.861497)
+		(gr_text "1.1402 mm"
+			(at 138.548881 79.222868 -37.87498365)
+			(layer "Edge.Cuts")
+			(uuid "02d44f54-208f-4da8-ad07-1f65d8cc647f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(format
+			(prefix "")
+			(suffix "")
+			(units 3)
+			(units_format 1)
+			(precision 4)
+		)
+		(style
+			(thickness 0.05)
+			(arrow_length 1.27)
+			(text_position_mode 0)
+			(extension_height 0.58642)
+			(extension_offset 0.5) keep_text_aligned)
+	)
 	(segment
 		(start 132.48 119.53)
 		(end 127.335 124.675)
