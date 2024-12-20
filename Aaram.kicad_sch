@@ -6651,10 +6651,22 @@
 		(uuid "16a7c54f-8eaf-4624-a4af-8fc9f9fd08da")
 	)
 	(junction
+		(at 236.22 121.92)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1c54b433-c3b4-4697-b79c-f432958f2bcf")
+	)
+	(junction
 		(at 184.15 95.25)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "21a4c7bd-f252-4ab0-bfc3-23e84e539f31")
+	)
+	(junction
+		(at 251.46 24.13)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "226047da-7bb4-4f88-b223-742cca579729")
 	)
 	(junction
 		(at 62.23 55.88)
@@ -6751,6 +6763,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b0ed1bec-508f-4d43-93c2-fec5b5d3e750")
+	)
+	(junction
+		(at 240.03 71.12)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b39a81b8-60d8-40be-906a-28d1628c2808")
 	)
 	(junction
 		(at 72.39 25.4)
@@ -10167,6 +10185,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+5V")
+		(at 251.46 24.13 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "186e74f1-4bdc-4dc3-a540-6c7b802e9494")
+		(property "Reference" "#PWR04"
+			(at 251.46 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 251.4601 20.32 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 251.46 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 251.46 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 251.46 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ffd16dc0-e229-497a-a701-16c3c8989f18")
+		)
+		(instances
+			(project "Aaram"
+				(path "/29654a86-74fd-4059-9f21-82ff906cc333"
+					(reference "#PWR04")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "PCM_Resistor_AKL:R_1206")
 		(at 62.23 44.45 180)
 		(unit 1)
@@ -12788,6 +12872,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+5V")
+		(at 236.22 121.92 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "88da1277-a8cd-443d-a460-f56bd753d300")
+		(property "Reference" "#PWR06"
+			(at 240.03 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 232.41 121.9199 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 236.22 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 236.22 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 236.22 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c7cd3767-aec9-461a-a955-30e211f17eb3")
+		)
+		(instances
+			(project "Aaram"
+				(path "/29654a86-74fd-4059-9f21-82ff906cc333"
+					(reference "#PWR06")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "PCM_Resistor_AKL:R_1206")
 		(at 165.1 127 0)
 		(unit 1)
@@ -13148,6 +13298,72 @@
 			(project "Aaram"
 				(path "/29654a86-74fd-4059-9f21-82ff906cc333"
 					(reference "#PWR010")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 240.03 71.12 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9598c750-6f46-422f-bb7b-1f0eb19c87d5")
+		(property "Reference" "#PWR05"
+			(at 243.84 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 236.22 71.1199 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 240.03 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 240.03 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 240.03 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d5417665-e34b-499a-845d-07e8aafb6140")
+		)
+		(instances
+			(project "Aaram"
+				(path "/29654a86-74fd-4059-9f21-82ff906cc333"
+					(reference "#PWR05")
 					(unit 1)
 				)
 			)
