@@ -2,8 +2,9 @@
 PCB design for retro fitting old switch boards with new tech to control it remotely.
 
 ## Features
+
 1. Controls 4 loads using
-  - 1 Triac 
+  - 1 Triac for **Phase Angle Control**
       > Note: Triac circuit has added protection for the back EMF generateed by inductive load like fan.
   - 3 Relays for controlling other resistive loads
       > Try not use heavy inductive load using relays. During testing, the MCU was bugging out when load was switched.
