@@ -28,5 +28,5 @@ PCB design for retro fitting old switch boards with new tech to control it remot
 |3D Bottom view| ![3D Bottom View](/asset/3D_B.png)|
 
 ## To-Do
-1. Design 3D printables case for the PCB.
+1. ~~Design 3D printables case for the PCB.~~ **Done**
 2. Update ESPHOME yaml config.
