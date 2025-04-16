@@ -1,5 +1,5 @@
-# Aaram
-PCB design for retro fitting old switch boards with new tech to control it remotely.
+# Aaram  
+PCB design for retro fitting old switch boards with new tech to control it remotely using ESP32-C6-Mini-N1.
 
 ## Features
 1. Controls 4 loads using
